@@ -88,7 +88,7 @@ section#img1 {
 @media (max-width: 600px) {
     section#img1 {
         background-image: url(../pacote-d012/imagens/background001.jpg);
-        background-position: center right;
+        background-position: center center;
     }
 }
 
