@@ -48,7 +48,7 @@ header a:hover, footer a:hover {
 }
 
 section {
-    font-size: 3vw;
+    font-size: 4vw;
     font-family: var(--font3);
     padding-top: 10vh;
     padding-bottom: 10vh;
@@ -71,7 +71,6 @@ section.imagem {
     box-shadow: inset 6px 6px 13px 0px rgba(0, 0, 0, 0.444);
     background-attachment: fixed;
     background-size: cover;
-    background-position: right center;
 }
 
 section.imagem > p {
@@ -83,10 +82,12 @@ section.imagem > p {
 
 section#img1 {
     background-image: url(../pacote-d012/imagens/background001.jpg);
+    background-position: center center;
 }
 
 section#img2 {
     background-image: url(../pacote-d012/imagens/background002.jpg);
+    background-position: right center;
 }
 
 footer {
